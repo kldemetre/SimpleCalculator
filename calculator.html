@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Katherine DeMetre's Calculator</title>
+    </head>
+    <body>
+       <div id="Base" name="Base" title="Base">
+        <div id="Calc Container" name="Calc Container" title="Calc Container" style="font-family: Helvetica; font-size: 75pt; padding-top: 100px; padding-right: 100px; padding-bottom: 180px; padding-left: 100px; border: 1px solid black; text-align: center; background-image: url('https://www.mural-wallpaper.com/wp-content/uploads/2019/04/S-NA17.jpg');">
+  
+          <form name="calculator">
+            
+            <input type="text" name="answer" />
+            <br>
+            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" value=" * " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input type="button" value=" C " onclick="calculator.answer.value = ''" />
+            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+            </br>
+  
+    
+          </form>
+          <div id="done">
+          </div>
+        </div>
+    </body>
+</html>
